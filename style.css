@@ -1,19 +1,10 @@
 :root {
-  --bg: #fdfdfc;
-  --text: #1a1a1a;
-  --muted: #6b6b6b;
-  --accent: #0b6e6e;
-  --rule: #e4e4e0;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #15181a;
-    --text: #e8e6e3;
-    --muted: #9a9a94;
-    --accent: #5fc4c4;
-    --rule: #2c3236;
-  }
+  color-scheme: dark;
+  --bg: #15181a;
+  --text: #e8e6e3;
+  --muted: #9a9a94;
+  --accent: #5fc4c4;
+  --rule: #2c3236;
 }
 
 * {
